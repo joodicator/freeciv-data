@@ -23,3 +23,7 @@ table {
     margin: auto;
     background: #fff;
 }
+
+.github {
+    float: right;
+}
