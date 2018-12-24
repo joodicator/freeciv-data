@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background: #f8f8f8;
+}
+
+th {
+    text-align: left;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 3px;
+}
+
+form {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    background: #fff;
+}
