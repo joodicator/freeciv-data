@@ -46,6 +46,7 @@ Tech = namedtuple('Tech', ('name', 'reqs'))
 techs = {}
 for key, value in config.items():
     if not key.startswith('advance_'): continue
+    if value.get('root_req'): continue
     techs[value['name']] = Tech(
         name = value['name'],
         reqs = tuple(value[k] for k in ('req1', 'req2')
